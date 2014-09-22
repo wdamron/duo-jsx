@@ -53,6 +53,6 @@ Enable ES6 features.
 
 ####options.filename
 
-Type: ```string``` Default: ```'source.js'```
+Type: ```string``` Default: ```source.js```
 
 The output filename for the source map.

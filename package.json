@@ -1,0 +1,35 @@
+{
+  "name": "duo-jsx",
+  "version": "1.0.0",
+  "description": "react-tools plugin for duo",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EvanMarkHopkins/duo-jsx.git"
+  },
+  "keywords": [
+    "react",
+    "react-tools",
+    "duo",
+    "plugin"
+  ],
+  "author": "@EvanMarkHopkins",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/EvanMarkHopkins/duo-jsx/issues"
+  },
+  "homepage": "https://github.com/EvanMarkHopkins/duo-jsx",
+  "dependencies": {
+    "react-tools": "^0.11.2"
+  },
+  "devDependencies": {
+    "duo": "^0.8.4",
+    "tape": "^3.0.0"
+  }
+}

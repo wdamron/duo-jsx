@@ -1,6 +1,6 @@
 {
   "name": "duo-jsx",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "react-tools plugin for duo",
   "main": "index.js",
   "directories": {

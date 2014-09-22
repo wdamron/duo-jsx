@@ -5,13 +5,13 @@ var fs        = require('fs'),
     exp_es6   = fs.readFileSync(__dirname+'/exp_es6.js', 'utf8'),
     test      = require('tape'),
     jsx       = require('../index.js'),
-    duo       = require('duo');
+    Duo       = require('duo');
 
 test('duo-js', function (t) {
     t.plan(3);
     
     //basic usage
-    duo(__dirname+'/tmp/0')
+    Duo(__dirname+'/tmp/0')
      .entry(__dirname+'/react.js')
      .use(jsx())
      .run(function (err, src) {
@@ -21,7 +21,7 @@ test('duo-js', function (t) {
      });
 
     //wrong filetype
-    duo(__dirname+'/tmp/1')
+    Duo(__dirname+'/tmp/1')
      .entry(__dirname+'/react.css')
      .use(jsx())
      .run(function (err, src) {
@@ -29,7 +29,7 @@ test('duo-js', function (t) {
      });
     
     //options
-    duo(__dirname+'/tmp/2')
+    Duo(__dirname+'/tmp/2')
      .entry(__dirname+'/es6.js')
      .use(jsx({harmony: true}))
      .run(function (err, src) {

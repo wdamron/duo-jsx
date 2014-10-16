@@ -5,7 +5,7 @@
 ## Examples
 
 ```sh
-$ npm install --save-dev duo-js
+$ npm install --save-dev duo-jsx
 ```
 
 ###CLI

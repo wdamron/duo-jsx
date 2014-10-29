@@ -1,6 +1,6 @@
 {
   "name": "duo-jsx",
-  "version": "1.0.2",
+  "version": "0.12.0",
   "description": "react-tools plugin for duo",
   "main": "index.js",
   "directories": {
@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/EvanMarkHopkins/duo-jsx",
   "dependencies": {
-    "react-tools": "^0.11.2"
+    "react-tools": "^0.12.0"
   },
   "devDependencies": {
     "duo": "^0.8.4",

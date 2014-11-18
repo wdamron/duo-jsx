@@ -10,6 +10,8 @@ module.exports = function duoJSX (opts) {
 
     debug('compiling % to js', file.id);
 
+    file.src = file.src.replace(/'react'/g, '\'Bodhi5/react\'');
+
     file.src = react.transform(file.src, opts);
     file.type = 'js';
   };

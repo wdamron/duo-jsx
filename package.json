@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/EvanMarkHopkins/duo-jsx",
   "dependencies": {
+    "debug": "^2.1.0",
     "react-tools": "^0.12.0"
   },
   "devDependencies": {

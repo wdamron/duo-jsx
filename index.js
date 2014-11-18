@@ -1,12 +1,12 @@
-'use strict';
 
 var react = require('react-tools');
 
 module.exports = function duoJSX (opts) {
-    opts = opts || {};
+  opts = opts || {};
 
-    return function transform (file) {
-        if (file.type !== 'js') return;
-        file.src = react.transform(file.src, opts);
-    };
+  return function transformJSX (file) {
+    if (file.type !== 'js' || file.type !== 'jsx') return;
+    file.src = react.transform(file.src, opts);
+    file.type = 'js';
+  };
 };

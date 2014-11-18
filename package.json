@@ -29,7 +29,6 @@
     "react-tools": "^0.12.0"
   },
   "devDependencies": {
-    "duo": "^0.8.4",
-    "tape": "^3.0.0"
+    "duo": "^0.8.10"
   }
 }
